@@ -3,16 +3,52 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Marcos' Portfolio</title>
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/images">
 </head>
 
 <body>
-  
-
-
+    <h1 id="namebox">Marcos Lee</h1>
+    <header>
+      <ul class="nav">    
+        <li><a href="index.html" class="box box1 Font-Prop">About</a></li>
+        <li><a href="portfolio.html" class="box box2 Font-Prop">Portfolio</a></li>
+        <li><a href="contact.html" class="box box3 Font-Prop">Contact</a></li>
+      </ul>
+    </header>
+  <div class="container-outer1"> <!-- Outer container starts here -->      
+    <section class="container-inner1"> <!--- Inner container1 starts here -->
+      <h2>Contact</h2>
+      <main class="content"> <!-- content starts here -->
+        <form>
+        	Name: <br>
+        	<input type="text" name="Name" value="John Smith">
+        	<br>
+        	Email: <br>
+        	<input type="text" name="Email" value="Example@gmail.com">
+        	<br>
+        	Message: <br>
+        	<textarea></textarea>
+        	<br>
+        	<input type="submit" name="Submit">
+        </form>
+      </main> <!-- content ends here -->
+    </section>   <!-- Inner contaier1 ends here -->
+    <section class="container-inner2"> <!-- Inner container2 starts here -->   
+      <h3>Connect With Me</h3>
+      <main class="content"> <!-- content starts here -->
+        <a href="#"><img src="assets/images/github.png" class="icon icon1" alt="Github"></a>
+        <a href="#"><img src="assets/images/link.png" class="icon icon2" alt="Linkedin"></a>
+        <a href="#"><img src="assets/images/stack.png" class="icon icon3" alt="Stack"></a>
+      </main>  <!-- content ends here -->
+    </section> <!-- Inner Container2 Ends here -->
+  </div>  <!-- Outer container ends here -->
+  <div id="Teal-Line"></div>  <!-- Just a long dividing line between the outer container and footer -->
+  <div class="footer">
+    <p> ©copyright 2017 Marcos Lee </p>
+  </div>
 </body>
 
 </html>
